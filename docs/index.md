@@ -19,7 +19,7 @@
 
 ## Outline
 
-- 在 Linux, MacOS 上安裝 TensorFlow
+- [在 Linux, MacOS 上安裝 TensorFlow](/docs/lesson/installation-linux-macos.md)
   - Windows (從缺)
 - TensorFlow - Tensor and Tensor's Flow
 - TensorFlow 基本操作
