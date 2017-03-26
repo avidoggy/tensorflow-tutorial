@@ -19,8 +19,7 @@
 
 ## Outline
 
-- [在 Linux, MacOS 上安裝 TensorFlow](installation-linux-macos.md)
-  - Windows (從缺)
+- [在 Linux, MacOS, ~~Windows~~ 上安裝 TensorFlow](installation-linux-macos.md)
 - TensorFlow - Tensor and Tensor's Flow
 - TensorFlow 基本操作
 - ....
@@ -34,6 +33,10 @@
   - 出版日期: 2017-01-10
   - ISBN: 9864341790
   - ISBN-13: 9789864341795
+
+## 如何協作
+
+送出 Pull Request 即可
 
 ## 關於我
 

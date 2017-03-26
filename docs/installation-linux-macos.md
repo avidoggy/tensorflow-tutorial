@@ -10,14 +10,14 @@ MacOS 只要先確認有透過 [Brew](https://brew.sh/) 或 [MacPorts](https://w
 
 - 確認 Python
 
-  ```
+  ```bash
   $ python --version
   Python 2.7.10
   ```
 
 - 安裝 Pip - [官方安裝教學](https://pip.pypa.io/en/stable/installing/)
 
-  ```
+  ```bash
   # 從 pip 官網取得安裝腳本
   $ wget https://bootstrap.pypa.io/get-pip.py
 
@@ -32,7 +32,7 @@ MacOS 只要先確認有透過 [Brew](https://brew.sh/) 或 [MacPorts](https://w
 - 作者個人偏好保持系統乾淨，所以 [virtualenv](https://virtualenv.pypa.io/en/stable/) 就請各位自行決定是否需要安裝
   - virtualenv is a tool to create isolated Python environments.
 
-  ```
+  ```bash
   $ pip install virtualenv
 
   # 建立一個專屬於 TensorFlow 的虛擬環境
@@ -54,14 +54,14 @@ MacOS 只要先確認有透過 [Brew](https://brew.sh/) 或 [MacPorts](https://w
 
 - 安裝 TensorFlow - [官方安裝教學](https://www.tensorflow.org/install/)
 
-  ```
+  ```bash
   # Python 2.7; CPU support (no GPU support)
   $ pip install tensorflow
   ```
 
 - 安裝 Jupyter (選配：Coding 的 IDE 看個人喜好) - [官方安裝教學](http://jupyter.org/install.html)
 
-  ```
+  ```bash
   $ pip install jupyter
 
   # 啟動 Jupyter
