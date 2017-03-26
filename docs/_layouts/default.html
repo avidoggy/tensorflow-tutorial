@@ -13,9 +13,9 @@
       <div class="container">
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        <h3><a href="{{ site.baseurl | default: site.baseurl }}">MENU</a></h3>
 
         <section id="downloads">
+          <a href="{{ site.baseurl | default: site.baseurl }}">MENU</a>
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
             <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
@@ -29,8 +29,11 @@
       <section id="main_content">
         {{ content }}
       </section>
-      <h3><a href="{{ site.baseurl | default: site.baseurl }}">MENU</a></h3>
     </div>
+
+    <footer>
+      <h3><a href="{{ site.baseurl | default: site.baseurl }}">MENU</a></h3>
+    </footer>
 
     {% if site.google_analytics %}
       <script type="text/javascript">
